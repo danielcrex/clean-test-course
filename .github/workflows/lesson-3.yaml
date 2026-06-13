@@ -18,7 +18,7 @@ jobs:
         run: zip -r deploy.zip build Dockerfile
       - name: '**PLACEHOLDER** Deploy to Elastic Beanstalk'
         run: echo Placeholder for Deployment
-function_test:
+  function_test:
     runs-on: ubuntu-latest
     defaults:
       run:
